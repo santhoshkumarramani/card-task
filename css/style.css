@@ -107,14 +107,14 @@
 	font-family:arial;
 }
 .advanced{
-	color:white;
-	background-color:#1b1bff;
-	position:absolute;
-	width:170px;
-	height:30px;
-	transform:rotate(44deg);
-	top:25px;
-	left:144px;
+	    color: white;
+    background-color: #1b1bff;
+    position: absolute;
+    width: 172px;
+    height: 29px;
+    transform: rotate(44deg);
+    top: 28px;
+    left: 156px;
 }
 
 
