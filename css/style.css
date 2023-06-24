@@ -3,34 +3,44 @@
 	padding:0;
 	box-sizing:border-box;
 }
-.container1{
+.full-table{
 	margin:0 auto;
-	width: 85%;
+    width: 90%;
+    padding: 5px 0px;
 }
-.head{
+.heading{
 	text-align:center;
 }
-.head h2{
-	font-size:35px;
-	font-weight:600;
-	color:#0980e8;
+
+.heading h2{
+	font-size:30px;
+	font-weight:700;
+	color:#1d63af;
 	margin-bottom:25px;
 	margin-top: 20px;
-	
+	font-family: 'Raleway', sans-serif;
 }
-.head p{
-	color:gray;
+.heading p{
+	color:rgba(70,70,70,255);
 	margin-bottom:25px;
+	font-family:'Raleway', sans-serif;
+	font-style: italic;
+	font-weight:500;
+	font-size:14px;
+    letter-spacing: 0.4px;
+    line-height: 23px;
+    
 }
 .row{
 	display:flex;
 	text-align:center;
 	justify-content:space-between;
 	gap: 30px;
+	
 }
 
 
-.col{
+.table{
 	width:25%;
 	height:auto;
 	box-shadow: 0px 0px 1px #8787;
@@ -39,54 +49,62 @@
     overflow: hidden;
 	
 }
-.card-title{
-	background-color:#8080800a;
-	color:#0980e8;
-	font-size:19px;
+.title{
+	background-color:#8080801c;
+	color:#1d63af;
+	font-size:14px;
 	text-align:center;
 	padding:20px;
-	
+	font-family: 'Raleway', sans-serif;
 }
 
-.card-content{
+.content{
 	margin:20px 0;
 	padding:20px;
 	
 }
-.card-content p{
+.content p{
+	
+	font-size:13px;
+	font-weight:500;
 	line-height:43px;
+	font-family: 'Lato', sans-serif;
 }
-.card-content del{
+.content del{
 	color:#8080808a;
 }
 .button{
 	    background-color: #f8f8f8;
 		padding:20px;
+		font-weight:200;
 		
 }
-button{
+ .button a{
+	border-radius:21px;
+	padding:10px 25px;
+	background-color:rgb(9,127,233);
 	color:white;
-	background-color:blue;
-	border:2px solid blue;
-	border-radius:17px;
-	padding:8px 26px;
+	text-decoration:none;
 }
-.card-content sup{
+.content sup{
 	font-size:22px;
 	font-weight:600;
 	color:#0980e8;
 	position: relative;
     top: -15px;
+	
 }
-.card-content span{
+.content span{
 	font-size:40px;
-	color:blue;
+	color:#2a68c9f5;
 	font-weight:600;
+	font-family:arial;
 }
-.card-content sub{
+.content sub{
 	font-size:17px;
 	font-weight:100;
 	color:#80808070;
+	font-family:arial;
 }
 .advanced{
 	color:white;
@@ -98,15 +116,18 @@ button{
 	top:25px;
 	left:144px;
 }
-.card-title:hover{
-	color:white;
-	background-color:#1b1bff;
+
+
+.line-through{
+	text-decoration:line-through;
+    color:#8080805e;
+
 }
 
-
-
-
-
+.title:hover{
+	color:white;
+	background-color:blue;
+}
 
 
 
